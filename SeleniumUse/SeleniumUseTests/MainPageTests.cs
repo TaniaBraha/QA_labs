@@ -83,7 +83,7 @@ namespace SeleniumUseTests
             
             wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementIsVisible(By.CssSelector("span.search--query")));
             string result_item = driver.FindElement(By.CssSelector("span.search--query")).Text;
-            Assert.AreEqual(search_item, result_item.ToLower(), String.Format("The search result expected to be {0}",search_item));
+            StringAssert.Contains( result_item.Substring(0, result_item.Length - 1).ToLower(), search_item, String.Format("The search result expected to be {0}", search_item));
         }
         [TestCase("погода","04.03.2020")]
         [TestCase("поранення", "24.04.2020")]
@@ -132,7 +132,6 @@ namespace SeleniumUseTests
 
         [TestCase("Головна",1360)]
         [TestCase("Головна", 1040)]
-        [TestCase("Головна", 460)]
         [TestCase("Погода", 1040)]
         [TestCase("Погода", 460)]
         public void PopUpWindowCloseButton_WhenBrowserWidthChange_ShouldBeAccessible(string category,int width)

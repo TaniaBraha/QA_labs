@@ -14,8 +14,6 @@ Scenario Outline: Feasibility to close a pop-up window depending on the screen-w
 	| DifferentCategory |  | width |
 	| Головна           |  | 1360  |
 	| Головна           |  | 1040  |
-	| Головна           |  | 460   |
-	| Погода            |  | 1360  |
 	| Погода            |  | 1040  |
 	| Погода            |  | 860   |
 

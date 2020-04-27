@@ -6994,11 +6994,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\универ\\3 курс\\testing)\\c#\\SpecFlow_project\\SpecFlow_project\\SpecFlow_project.csproj",
+      "projectUniqueName": "D:\\универ\\3 курс\\testing)\\c#\\QA_labs\\SpecFlow_project\\SpecFlow_project\\SpecFlow_project.csproj",
       "projectName": "SpecFlow_project",
-      "projectPath": "D:\\универ\\3 курс\\testing)\\c#\\SpecFlow_project\\SpecFlow_project\\SpecFlow_project.csproj",
+      "projectPath": "D:\\универ\\3 курс\\testing)\\c#\\QA_labs\\SpecFlow_project\\SpecFlow_project\\SpecFlow_project.csproj",
       "packagesPath": "C:\\Users\\hanyf\\.nuget\\packages\\",
-      "outputPath": "D:\\универ\\3 курс\\testing)\\c#\\SpecFlow_project\\SpecFlow_project\\obj\\",
+      "outputPath": "D:\\универ\\3 курс\\testing)\\c#\\QA_labs\\SpecFlow_project\\SpecFlow_project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hanyf\\AppData\\Roaming\\NuGet\\NuGet.Config",
