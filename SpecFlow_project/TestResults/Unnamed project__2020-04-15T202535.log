@@ -1,0 +1,17 @@
+﻿2020-04-15T20:25:35.6005804+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2020-04-15T20:25:35.6006767+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.2.22 in Framework netcore31 in x64 mode execution started
+2020-04-15T20:25:35.6006800+03:00;VSTestExecutionThread;Info;TestAdapter Location: D:\универ\3 курс\testing)\c#\SpecFlow_project\SpecFlow_project\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2020-04-15T20:25:35.6454596+03:00;VSTestExecutionThread;Info;SpecRun: running tests in D:\универ\3 курс\testing)\c#\SpecFlow_project\SpecFlow_project\bin\Debug\netcoreapp3.1\SpecFlow_project.dll
+2020-04-15T20:25:35.6461371+03:00;VSTestExecutionThread;Info;Output folder configured to "D:\универ\3 курс\testing)\c#\SpecFlow_project\TestResults" (default)
+2020-04-15T20:25:35.6462342+03:00;VSTestExecutionThread;Info;Profile: 
+2020-04-15T20:25:35.7316594+03:00;VSTestExecutionThread;Info;Log file path: D:\универ\3 курс\testing)\c#\SpecFlow_project\TestResults\Unnamed project__2020-04-15T202535.log
+2020-04-15T20:25:35.7416811+03:00;Thread#12;Info;Checking activation
+2020-04-15T20:25:36.4814888+03:00;Thread#12;Error;No tests executed (activation needed)
+2020-04-15T20:25:36.4985207+03:00:Total: 0
+2020-04-15T20:25:36.5003518+03:00:Succeeded: 0
+2020-04-15T20:25:36.5006352+03:00:Ignored: 0
+2020-04-15T20:25:36.5008799+03:00:Pending: 0
+2020-04-15T20:25:36.5015322+03:00:Skipped: 0
+2020-04-15T20:25:36.5018064+03:00:Failed: 0
+2020-04-15T20:25:36.5071875+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========
