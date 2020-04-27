@@ -9,7 +9,7 @@ namespace SeleniumUse
 {
     public class Help
     {        
-        public static string ReplaceMonth(string str)
+        public static string ReplaceMonth(string str)//expected input in format "04.03.2020"
         {
             string[] month = new string[] { " січня ", " лютого ", " березня ", " квітня ",
                 " травня ", " червня ", " липня ", " серпня ", " вересня ", " жовтня ", " листопада ", " грудня " };
