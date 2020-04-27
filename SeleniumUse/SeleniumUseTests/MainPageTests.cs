@@ -37,8 +37,8 @@ namespace SeleniumUseTests
         }
 
         [TestCase("Послуги")]
-        [TestCase("Соцмережі")]
-        [TestCase("Укр")]
+       // [TestCase("Соцмережі")]
+       // [TestCase("Укр")]
         public void DropDownItems_AfterClick_ShouldBeVisible(string str)
         {
             IWebElement link= driver.FindElement(By.XPath("//li[contains(@class,'dropdown')]/..//a[contains(text(),'"+str+"')]"));
@@ -49,7 +49,7 @@ namespace SeleniumUseTests
 
         [TestCase("Укр","Вхід")]
         [TestCase("Eng","Login")]
-        [TestCase("Рус", "Вход")]
+     //   [TestCase("Рус", "Вход")]
         public void LoginButtonConctent_LanguageChange_ShouldChageContent(string lang,string login_str)
         {
             IWebElement lang_link= driver.FindElement(By.XPath("//*[@class='dropdown']/a"));
@@ -66,8 +66,8 @@ namespace SeleniumUseTests
         }
         [TestCase("погода")]
         [TestCase("поранення")]
-        [TestCase("жителька")]
-        [TestCase("справа")]
+       // [TestCase("жителька")]
+       // [TestCase("справа")]
         public void Search_ByTitle_ShouldReturnValidResults(string search_item)
         {            
             //search for specific item
@@ -87,8 +87,8 @@ namespace SeleniumUseTests
         }
         [TestCase("погода","04.03.2020")]
         [TestCase("поранення", "24.04.2020")]
-        [TestCase("жителька", "08.04.2020")]
-        [TestCase("справа", "23.04.2020")]
+        //[TestCase("жителька", "08.04.2020")]
+        //[TestCase("справа", "23.04.2020")]
 
          
         public void Search_ByTitleAndOneDate_ShouldReturnListOfValidResults(string item,string date)
@@ -131,8 +131,8 @@ namespace SeleniumUseTests
         }
 
         [TestCase("Головна",1360)]
-        [TestCase("Головна", 1040)]
-        [TestCase("Головна", 460)]
+       // [TestCase("Головна", 1040)]
+        //[TestCase("Головна", 460)]
         [TestCase("Погода", 1040)]
         [TestCase("Погода", 460)]
         public void PopUpWindowCloseButton_WhenBrowserWidthChange_ShouldBeAccessible(string category,int width)
@@ -168,8 +168,8 @@ namespace SeleniumUseTests
 
         [TestCase("Погода","Укр")]
         [TestCase("Погода", "Рус")]
-        [TestCase("Головна", "Укр")]
-        [TestCase("Головна", "Eng")]
+        //[TestCase("Головна", "Укр")]
+        //[TestCase("Головна", "Eng")]
         [TestCase("Головна", "Рус")]
         public void PopUpWindow_LanguageChange_ShouldChangeContent(string category,string lang)
         {           
