@@ -190,7 +190,7 @@ namespace SeleniumUseTests
             need_category = driver.FindElement(By.ClassName("main-menu")).FindElement(By.XPath(".//*[contains(text(),'" + category + "')]"));
             try
             {
-                need_category.FindElement(By.XPath("./ancestor::li[@class='selected]'"));
+                need_category.FindElement(By.XPath("./ancestor::li[@class='selected']"));
             }
             catch (NoSuchElementException)
             {
