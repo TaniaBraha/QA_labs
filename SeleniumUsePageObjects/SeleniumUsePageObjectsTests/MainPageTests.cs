@@ -60,7 +60,7 @@ namespace SeleniumUsePageObjectsTests
 
             MainPage.ChangeLanguage(lang);
             
-            Assert.AreEqual(MainPage.LoginButton_value, expected_value, String.Format("Login button content expected to be {0},but was {1}", expected_value, MainPage.LoginButton_value));
+            Assert.AreEqual(MainPage.LoginButton_value, expected_value, String.Format("Login button content expected to be {0},but was {1}",expected_value,MainPage.LoginButton_value));
         }
         [TestCase("Головна", 1360)]
         [TestCase("Головна", 1040)]

@@ -23,10 +23,8 @@ namespace SeleniumUsePageObjects
         public IWebElement PopUpWindowAgreeButton;
 
         //get values
-        public string Url()
-        {
-            return _driver.Url;
-        }
+        public string Url { get { return _driver.Url; } }
+        
         public bool IsAbleToClickOnElement(IWebElement elem)
         {
             try

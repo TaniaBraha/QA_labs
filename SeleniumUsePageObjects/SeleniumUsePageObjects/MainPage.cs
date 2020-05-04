@@ -29,10 +29,8 @@ namespace SeleniumUsePageObjects
 
 
         //get values
-        public string LoginButton_value()
-        {
-            return LoginButton.Text;
-        }
+        public string LoginButton_value { get { return LoginButton.Text; } }
+        
         
         
         
@@ -72,7 +70,7 @@ namespace SeleniumUsePageObjects
             }
             catch (NoSuchElementException)
             {
-                if (Url().Contains("/pogoda"))
+                if (Url.Contains("/pogoda"))
                 {
                     var WeatherPage = new WeatherPage(_driver);
                     WeatherPage.ChangeLanguage(lang);
