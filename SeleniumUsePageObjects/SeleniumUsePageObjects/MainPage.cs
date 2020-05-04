@@ -72,7 +72,7 @@ namespace SeleniumUsePageObjects
             }
             catch (NoSuchElementException)
             {
-                if (Url.Contains("/pogoda"))
+                if (Url().Contains("/pogoda"))
                 {
                     var WeatherPage = new WeatherPage(_driver);
                     WeatherPage.ChangeLanguage(lang);
