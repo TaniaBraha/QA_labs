@@ -25,7 +25,7 @@ namespace SeleniumUsePageObjects
         public IList<IWebElement> Search_results { get; set; }
 
         //get_values
-        public string GetSearchResult() => Search_results[0].FindElement(By.XPath(".//span")).Text;
+        public string GetSearchResult() { return Search_results[0].FindElement(By.XPath(".//span")).Text; }
         
 
         //actions

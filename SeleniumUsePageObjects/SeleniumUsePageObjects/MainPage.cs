@@ -25,11 +25,14 @@ namespace SeleniumUsePageObjects
         public IWebElement LoginButton;
         [FindsBy(How = How.CssSelector, Using = ".text-right button")]
         public IWebElement SearchUpperCornerLink;
-        
+
 
 
         //get values
-        public string LoginButton_value => LoginButton.Text;
+        public string LoginButton_value()
+        {
+            return LoginButton.Text;
+        }
         
         
         
