@@ -37,6 +37,7 @@ namespace SeleniumUseTests
         [TestCase("Послуги")]
         [TestCase("Соцмережі")]
         [TestCase("Укр")]
+
         public void DropDownItems_AfterClick_ShouldBeVisible(string str)
         {
             IWebElement link= driver.FindElement(By.XPath("//li[contains(@class,'dropdown')]/..//a[contains(text(),'"+str+"')]"));
@@ -110,6 +111,7 @@ namespace SeleniumUseTests
             //Check every result item using collection
 
             IList<IWebElement> search_results =  driver.FindElements(By.ClassName("news-inline-item"));
+            
             foreach(IWebElement e in search_results)
             {
                 string item_result = e.FindElement(By.ClassName("search--query")).Text;
